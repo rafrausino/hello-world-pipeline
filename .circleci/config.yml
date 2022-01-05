@@ -34,6 +34,6 @@ workflows:
   say-hello-workflow:
     jobs:
       - say-hello
-    test_my_app:
-      jobs:
-        - install-node-example
+  test_my_app:
+    jobs:
+      - install-node-example
